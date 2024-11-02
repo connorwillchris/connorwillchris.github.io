@@ -1,0 +1,12 @@
+* {
+    font-family: "Source Code Pro"
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+}

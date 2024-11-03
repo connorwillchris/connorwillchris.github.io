@@ -5,13 +5,28 @@
         "pos": "Noun"
     },
     {
-        "word": "nayo",
+        "word": "najo",
         "definition": [ "water", "stream" ],
         "pos": "Noun"
     },
     {
         "word": "kina",
-        "definition": [ "person" ],
+        "definition": [ "person", "man" ],
         "pos": "Noun"
+    },
+    {
+        "word": "atati",
+        "definition": [ "animal" ],
+        "pos": "Noun (Adjective)"
+    },
+    {
+        "word": "kane",
+        "definition": [ "old", "great" ],
+        "pos": "Adjective (Noun)"
+    },
+    {
+        "word": "ajo",
+        "definition": [ "red", "blood" ],
+        "pos": "Adjective (Noun)"
     }
 ]

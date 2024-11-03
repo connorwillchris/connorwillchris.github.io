@@ -23,6 +23,19 @@
         </ul>
     </nav>
 
-    <div id="changelog"></div>
+    <ul id="changelog"></ul>
+
+    <script>
+        const changelogList = document.getElementById('changelog');
+        fetch('changelog.json')
+            .then(res => res.json())
+            .then((res) => {
+
+                res.forEach(element => {
+                    changelogList.innerHTML += `<li>${element}</li>`;
+                });
+            });
+
+    </script>
 </body>
 </html>

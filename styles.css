@@ -1,38 +1,46 @@
 * {
-    font-family: "Source Code Pro";
-}
-
-h1 h2 {
-    text-align: center;
-}
-
-table, th, td {
-    text-align: center;
-    border-collapse: collapse;
-    border: 1px solid;
-    padding: 10px;
-}
-
-nav ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333;
 }
 
-nav li {
-    float: left;
+body {
+    font-family: 'Arial', sans-serif;
 }
 
-nav li a {
-    display: block;
+.navbar {
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+    background: #333;
+    background-blend-mode: darken;
+    background-size: cover;
     color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    padding: 10px 20px;
 }
 
-nav li a:hover {
-    background-color: #111;
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+.nav-list li:last-child {
+    margin-right: 0;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-list li a:hover {
+    color: blue;
+    /* Change the color on hover */
 }

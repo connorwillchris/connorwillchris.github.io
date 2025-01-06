@@ -4,6 +4,7 @@ const clickMeButton = document.getElementById('clickMeButton');
 const langCheckbox = document.getElementById('langCheckbox');
 const statsInputBoxes = document.getElementsByClassName('stat');
 
+
 // do init here
 langCheckbox.checked = false;
 let lang = 'en';

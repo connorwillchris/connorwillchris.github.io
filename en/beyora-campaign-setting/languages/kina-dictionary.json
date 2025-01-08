@@ -1,40 +1,42 @@
-{
-    "pato'i": {
+[
+    {
+        "word": "pato'i",
         "pos": "verb",
         "meaning": [ "to know" ]
     },
-    "name": {
+    {
+        "word": "name",
         "pos": "verb",
         "meaning": [ "to fail" ]
     },
-    "ka": {
+    {
+        "word": "ka",
         "pos": "pronoun",
-        "meaning": [
-            "me", "myself", "I"
-        ]
+        "meaning": [ "me", "myself", "I" ]
     },
-    "haki": {
+    {
+        "word": "haki",
         "pos": "pronoun",
-        "meaning": [
-            "he", "him", "boy"
-        ]
+        "meaning": [ "he", "him", "boy" ]
     },
-    "koki": {
+    {
+        "word": "koki",
         "pos": "pronoun",
-        "meaning": [
-            "she", "her", "girl"
-        ]
+        "meaning": [ "she", "her", "girl" ]
     },
-    "kare'o": {
+    {
+        "word": "kare'o",
         "pos": "noun",
         "meaning": [ "animal" ]
     },
-    "many": {
+    {
+        "word": "ma",
         "pos": "noun",
         "meaning": [ "many things" ]
     },
-    "mata": {
+    {
+        "word": "mata",
         "pos": "noun",
         "meaning": [ "mother" ]
     }
-}
+]

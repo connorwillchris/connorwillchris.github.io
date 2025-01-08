@@ -1,0 +1,3 @@
+# Todo
+
+- [ ] category/special abilities

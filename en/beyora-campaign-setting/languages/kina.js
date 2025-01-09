@@ -12,5 +12,4 @@ fetch('./kina-dictionary.json')
             </tr>
             `;
         }
-    })
-    ;
+    });

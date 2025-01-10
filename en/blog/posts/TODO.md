@@ -1,3 +1,0 @@
-# Todo
-
-- [ ] First blog post!

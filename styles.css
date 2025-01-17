@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Rubik+Vinyl&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-.container {
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP&family=Noto+Sans+JP:wght@100..900&family=Rampart+One&family=Rubik+Vinyl&display=swap');
+
+#container {
     margin: auto;
     width: 50%;
     font-family: "Open Sans", serif;
@@ -17,13 +19,7 @@ table, th, td {
 
 h1, h2 {
     background-color: #c8ccd1;
-    /*padding: 0;*/
     text-align: center;
-}
-
-.jp {
-    font-family: "Noto Sans JP", serif;
-    font-style: normal;
 }
 
 #titlePage {

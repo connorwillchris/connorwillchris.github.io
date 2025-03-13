@@ -6,6 +6,11 @@
     <title>Old-School Essentials</title>
 </head>
 <body>
+    <!--
+    TODO
+    work on links...
+    -->
+
     <h1>Game Statistics</h1>
     <p>Player characters are described, in game terms, by a set of statistics that define their abilities, strengths, and weaknesses in the game world.</p>
 
@@ -69,6 +74,101 @@
         This alignment determines how certain magic influences the character and should be used by the player as a guideline for role-playing the character.
     </p>
 
-    <!--TODO-->
+    <h2>Hit Points (HP)</h2>
+    <p>
+        The character's ability to avoid dying. The character has a
+        <b>maximum hit point total</b>
+        and a
+        <b>current hit point total</b>,
+        which are tracked seperately. When a character is harmed, their current hit point total is reduced. If this number reaches 0, the character is dead! Rest or healing can restore lost hit points (see
+        <a>Damage, Healing, and Death</a>),
+        but never above the character's maximum hit point total (this is only increased when the character increases in level).
+    </p>
+
+    <p>Hit Dice (HD)</p>
+    <p>
+        The number of dice used to determine the character's maximum hit point total. The character's level determines the number of Hit Dice and their class determines the type of dice rolled (i.e. d4, d6, d8). (Some classes also grant a flat bonus to hit points at certain levels.)
+    </p>
+
+    <h2>Armor Class (AC)</h2>
+    <p>
+        The character's ability to avoid damage in combat. AC is determined by the character's armour and their Dexterity score. Lower Armour Class scores are better, so bonuses decrease the character's AC and penalties increase it. 
+    </p>
+    <p>
+        <b>Dual format:</b>
+        The equivalent ascending AC is listed in square brackets, for groups using the optional rule for Ascending AC. (e.g. AC 5 [14] — an AC of 5, or 14 if using the optional rule for Ascending AC.)
+    </p>
+    <p>
+        <b>Unarmored AC:</b>
+        An unarmored character has AC 9 [10].
+    </p>
+
+    <h3>Ascending AC (Optional Rule)</h3>
+    <p>
+        Some groups are more familiar with an Armour Class system where higher scores are better. This system is known as Ascending Armour Class (abbreviated AAC) and works as follows:
+    </p>
+    <ul>
+        <li>
+            <b>Armor Class:</b>
+            When using AAC, higher scores are better. Bonuses to Armour Class increase the AAC score and penalties decrease it.
+        </li>
+        <li>
+            <b>Attack rolls:</b>
+            When using AAC, the procedure for resolving attack rolls involves the use of an attack bonus instead of a THAC0 score and attack matrix.
+        </li>
+    </ul>
+    <p>
+        <b>Note:</b>
+        Using Ascending Armour Class results in very slightly different attack probabilities than when using the traditional approach of descending AC with an
+        <a>attack matrix</a>.
+    </p>
+
+    <h2>Attack Roll "to hit AC 0" (THAC0)</h2>
+    <p>
+        The character's ability to hit foes in combat, determined by their class and level. The THAC0 score indicates which row of the attack matrix (see 
+        <a>Combat Tables</a>)
+        to use when attacking. Lower THAC0 scores are better.
+    </p>
+    <p>
+        <b>Dual format:</b>
+        The equivalent attack bonus is listed in square brackets, for groups using the optional rule for Ascending AC. (e.g. THAC0 15 [+4] — a THAC0 of 15, or an attack bonus of +4 if using the optional rule for Ascending AC.)
+    </p>
+    <p>
+        <b>Attacking:</b>
+        The procedure for making attack rolls is described in
+        <a>Combat</a>.
+    </p>
+
+    <h2>Saving Throw Values</h2>
+    <p>
+        The character's ability to avoid certain dangerous or detrimental effects. There are five saving throw categories: death (or poison), wands, paralysis (or petrification), breath attacks, spells (or magic rods or staves). The character's saving throw values are determined by class and level. See
+        <a>Saving Throws</a>
+        for full details.
+    </p>
+    
+    <h2>Movement Rate</h2>
+    <p>
+        The speed at which the character can move when exploring, travelling, or during combat. Every character has a
+        <b>base movement rate</b>
+        and an
+        <b>encounter movement rate</b>
+        (noted in parentheses). The encounter movement rate is one third of the base movement rate. The default movement rate for characters is 120' (40')—a base movement rate of 120' and an encounter movement rate of 40'.
+    </p>
+    <ul>
+        <li>
+            <b>Overland:</b>
+            The number of miles a character can travel in a day in the wilderness is determined by dividing their base movement rate by five.
+        </li>
+        <li>
+            <b>Exploration:</b>
+            When exploring unknown areas of a dungeon, characters can move their base movement rate in feet per turn (10 minutes).
+        </li>
+    </ul>
+
+    <h2>Class Abilities</h2>
+    <p>
+        Finally, the character's class denotes a set of special abiliteshat the character may use, including the ability to use certain types of armour and weapons and to speak one or more
+        <a>languages</a>.
+    </p>
 </body>
 </html>

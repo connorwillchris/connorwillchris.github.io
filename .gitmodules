@@ -1,0 +1,3 @@
+[submodule "ose-toki-pona"]
+	path = ose-toki-pona
+	url = https://github.com/connorwillchris/ose-toki-pona.git

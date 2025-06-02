@@ -1,67 +1,53 @@
 body {
+    font-family: 'Georgia', serif;
+    background: #f9f9f6;
+    color: #222;
     margin: 0;
     padding: 0;
-    font-family: 'Georgia', serif;
-}
-
-h1, h2, h3 {
-    font-family: 'Courier New', monospace;
-    color: #333;
-    text-align: center;
-}
-
-p {
-    font-size: 18px;
     line-height: 1.6;
-    text-align: justify;
-}
-
-hr {
-    border: none;
-    border-top: 2px dashed #ccc;
-    margin: 20px 0;
-}
-
-.container {
-    max-width: 800px;
-    margin: 40px auto;
-    background: white;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    border: 1px solid #ddd;
-}
-
-/*
-.fancyFont {
-    font-family: 'Courier New', monospace;
-}
-*/
-
-.navbar {
-    background-color: #f8f0e3;
-    padding: 10px 0;
+  }
+  
+  header {
+    background: #333;
+    color: #f4f4f4;
+    padding: 2rem;
     text-align: center;
-    border-bottom: 2px solid #ddd;
-}
-
-.navbar a {
+  }
+  
+  .tagline {
+    font-size: 1.1rem;
+    color: #bbb;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  nav a {
+    color: #f4f4f4;
     text-decoration: none;
-    color: #5a5a5a;
-    padding: 10px 15px;
-    font-family: 'Courier New', monospace;
-}
-
-.navbar a:hover {
-    background-color: #ddd;
-    border-radius: 5px;
-}
-
-.footer {
+  }
+  
+  main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.3rem;
+  }
+  
+  footer {
     text-align: center;
-    font-size: 14px;
-    padding: 10px;
-    margin-top: 20px;
-    background-color: #f8f0e3; 
-    border-top: 2px solid #ddd;
-}
+    padding: 1rem;
+    background: #eee;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  

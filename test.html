@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TypeNet – A Writer's Webring</title>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Courier Prime', monospace;
+      background: #fdfcf9 url('paper-texture.jpg') repeat;
+      color: #222;
+      margin: 0;
+      padding: 2em;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: auto;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      border-bottom: 2px solid #222;
+      padding-bottom: 0.2em;
+    }
+
+    .blink-cursor::after {
+      content: '|';
+      animation: blink 1s step-start infinite;
+    }
+
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+
+    .intro {
+      margin: 2em 0;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 1em;
+      padding: 0.5em 1em;
+      background: #222;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      margin-top: 3em;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1><span class="blink-cursor">TypeNet</span></h1>
+    <p class="intro">
+      Welcome to TypeNet – a curated webring for writers who love analog aesthetics, digital craft, and meaningful storytelling.
+    </p>
+    <a class="button" href="directory.html">Enter the Webring</a>
+
+    <footer>
+      Inspired by the rhythm of typebars and the clack of keys.
+    </footer>
+  </div>
+</body>
+</html>

@@ -14,15 +14,12 @@
         <a href="/blog/blog.html">Blog</a>
     </nav>
 
-    <h1>World of Dungeons</h1>
-    <h2>Rules Summary</h2>
-    <h3>Character Creation</h3>
-    <p>
-        <b>ATTRIBUTES:</b>
-        Roll 2d6 for each. On a 6-, the value is
-        +0. On a 7-9, the value is +1. On a 10-11,
-        the value is +2. On a 12, the value is +3.
-    </p>
+    <h1 id="worldOfDungeonsTitle"></h1>
+    <button id="translateButton"></button>
+    <h2 id="rulesSummaryHeader"></h2>
+
+    <h3 id="characterCreationHeader"></h3>
+    <p id="attributesParagraph"></p>
     <p>
         <b>You have 1 Hit Die (d6) + extra hit dice equal to your CON.</b>
         Roll all your hit dice and keep a number equal
@@ -83,7 +80,78 @@
         - detailed in ancient tomes and scrolls - and
         begin with two known rituals).
     </p>
+    <p>
+        <b>RANGERS</b>
+        get Survival. Choose two special abilities:
+        <b>Pet</b> (you have a loyal and effective
+        animal companion),
+        <b>Scout</b> (when you scout ahead you always
+        spot the target before it spots you),
+        <b>Volley</b> (+2 ranged damage),
+        <b>Wild</b> (you can converse with and attempt
+        to command animals).
+    </p>
+    <p>
+        <b>Make your own class:</b>
+        Choose a class skill and two special abilities.
+    </p>
+
+    <h3>Rolling the Dice</h3>
+    <p>
+        <b>When you attempt something risky,</b>
+        sum 2d6 and add one of your attribute scores,
+        based on the action you're taking. (The GM
+        will tell you some of the possible
+        consequences before you roll, so you can
+        decide if it's worth the risk or if you want
+        to revise your action.)
+        <b>A total of 6 or less is a miss;</b>
+        things don't go well and the risk turns out
+        badly.
+        <b>A total of 7-9 is a partial success;</b>
+        you do it, but there's some cost, compromise,
+        retribution, harm, ect.
+        <b>A total of 10 0or more is a full
+        success;</b>
+        you do it without complications. And
+        <b>a total of 12 or more is a critical
+        success;</b>
+        you do it perfectly to some benefit or
+        advantage.
+    </p>
+    <p>
+        <b>SKILLS:</b>
+        If you have an applicable skill, you can't
+        miss. A roll of 6 or less counts as a partial
+        success, but with a bigger compromise or
+        complication than a 7-9 result.
+    </p>
+
+    <h3>The Die of Fate</h3>
+    <p>
+        <b>Sometimes the GM will roll the die of
+        fate to see how the situation is
+        established.</b>
+        Low numbers are ill-fortune, high numbers are
+        good fortune (or at least not misery). The die
+        of fate might be rolled to established the
+        weather, indicate a random NPC's general
+        attitude, or to determine if a wandering
+        monster appears. The GM may also roll the die
+        of fate if the PCs take some action for 
+        which sheer chance is the only factor in the
+        outcome.
+    </p>
+    <p>
+        <i>These rules are yours to bend at your
+        will! You may find it natural to expand, redact
+        and modify them as your game goes on. We advise
+        keeping an open mind and lively discussion of
+        possiblities at the table.</i>
+    </p>
 
     </div>
+
+    <script src="./script.js"></script>
 </body>
 </html>

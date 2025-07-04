@@ -1,4 +1,12 @@
 body {
-    font-family: 'Courier New', monospace;
-    background: #fdfcf9 url('') repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.center-column {
+    width: 600px; /* Adjust as needed */
+    padding: 2rem;
+    box-sizing: border-box;
 }

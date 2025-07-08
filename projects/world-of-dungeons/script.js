@@ -1,4 +1,4 @@
-const translateButton = document.getElementById('translateButton');
+//const translateButton = document.getElementById('translateButton');
 const worldOfDungeonsTitle = document.getElementById('worldOfDungeonsTitle');
 const rulesSummaryHeader = document.getElementById('rulesSummaryHeader');
 const characterCreationHeader = document.getElementById('characterCreationHeader');
@@ -21,22 +21,11 @@ const englishJson = {
     thievesClassParagraph: '<b>THIEVES</b> get Stealth. Choose two abilities: <b>Backstab</b> (attack from concealment to do +3 damage), <b>Lucky</b> (once per day, turn a miss into a partial success), <b>Reflexes</b> (you always go first and can react when suddenly surprised), <b>Tinker</b> (you can attempt to quickly pick a lock, pick pocket, or disarm a trap).',
 };
 
-const tokJson = {
-    translateButton: 'English',
-    worldOfDungeonsTitle: 'ma pi tomo anpa',
-    rulesSummaryHeader: 'nasin ali',
-    characterCreationHeader: 'o pali e jan musi',
-    attributesParagraph: '<b>nanpa musi:</b> o kepeken e 2k6 tawa nanpa musi ali. sina jo e nanpa pi suli 6 anu lili la, nanpa musi li +0. sina jo e nanpa pi suli 7 anu nanpa pi 10 lili la, nanpa musi li +1.',
-    hitDiceParagraph: '<b>sina jo e leko sijelo wan la, sijelo sina li pana e leko sijelo sin.</b> o kepeken e leko nanpa ali.',
-    fighterClassParagraph: '<b>jan utala</b> jo e ken pali. o wile e ',
-    thievesClassParagraph: '<b>jan len</b>',
-};
-
 const click = function() {
     if (lang === 'en') {
         lang = 'tok';
 
-        translateButton.innerHTML = tokJson.translateButton;
+        //translateButton.innerHTML = tokJson.translateButton;
         worldOfDungeonsTitle.innerHTML = tokJson.worldOfDungeonsTitle;
         rulesSummaryHeader.innerHTML = tokJson.rulesSummaryHeader;
         characterCreationHeader.innerHTML = tokJson.characterCreationHeader;
@@ -48,7 +37,7 @@ const click = function() {
     else if (lang === 'tok') {
         lang = 'en';
 
-        translateButton.innerHTML = englishJson.translateButton;
+        //translateButton.innerHTML = englishJson.translateButton;
         worldOfDungeonsTitle.innerHTML = englishJson.worldOfDungeonsTitle;
         rulesSummaryHeader.innerHTML = englishJson.rulesSummaryHeader;
         characterCreationHeader.innerHTML = englishJson.characterCreationHeader;
@@ -59,6 +48,7 @@ const click = function() {
     }
 };
 
-click();
 
-translateButton.onclick = click;
+click();
+/*
+translateButton.onclick = click;*/

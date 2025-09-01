@@ -10,3 +10,7 @@ body {
     padding: 2rem;
     box-sizing: border-box;
 }
+
+.ja {
+    font-family: "Noto Sans JP", "Yu Gothic", "Meiryo", sans-serif;
+}

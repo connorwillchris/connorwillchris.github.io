@@ -6,36 +6,41 @@
     <title>connorwillchris</title>
 
     <link rel="stylesheet" href="/styles.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="center-column">
     <nav>
-        <a href="/">Home</a>
-        <a href="/blog/blog.html">Blog</a>
+        <a data-translate="home-page" href="/">Home</a>
+        <a data-translate="blog" href="/blog/blog.html">Blog</a>
     </nav>
 
-    <h1>ConnorWillChris - Home</h1>
+    <h1 data-translate="header">ConnorWillChris - Home</h1>
+
+    <button data-translate="translateBtn" id="translateBtn">日本語</button>
+    <br>
+
     <b>My projects</b>
     <ul>
-        <!--
-        <li><a href="/projects/great-oak/great-oak.html">Great Oak - D&D setting</a></li>
-        <li><a href="/projects/savage-epoch/savage-epoch.html">Savage Epoch</a></li>
-        <li><a href="/projects/world-of-dungeons/world-of-dungeons.html">World of Dungeons</a>
-        <li><a href="/projects/world-of-dungeons/hack/hack.html">World of Dungeons - Hack</a></li>
-        -->
         <li>Dungeons for Old School D&D/Renissance (OSR)</li>
         <ul>
-            <!--
-            <li><a href="/projects/dungeons/dungeon25.html">Dungeon 25</a></li>
-            -->
             <li>
-                <a href="projects/dungeons/lair-of-the-lamb.html">Lair of the Lamb - 日本語 Translation</a>
+                <a data-translate="lair-of-the-lamb"
+                    href="projects/dungeons/lair-of-the-lamb.html">
+                Lair of the Lamb - 日本語 Translation
+                </a>
             </li>
         </ul>
     </ul>
 
     <img src="images/cc.png" alt="Everything in this website is licensed under the Creative Commons Sharealike license.">
-    <img src="images/no-generative-ai.png" alt="No AI is allowed in or use for this website.">
+    <img src="images/no-generative-ai.png" alt="No AI is allowed in or used for this website.">
+
+    <script src="translate.js"></script>
 </div>
 </body>
 </html>

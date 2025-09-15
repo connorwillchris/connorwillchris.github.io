@@ -1,0 +1,1 @@
+- [] Make a two column translation for my old-norse projects.

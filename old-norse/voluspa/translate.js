@@ -24,4 +24,3 @@ document.getElementById('translateBtn').addEventListener('click', async() => {
         }
     });
 });
-//

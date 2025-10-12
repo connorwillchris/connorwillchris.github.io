@@ -10,11 +10,3 @@ body {
     padding: 2rem;
     box-sizing: border-box;
 }
-
-.ja {
-    font-family: "Noto Sans JP", "Yu Gothic", "Meiryo", sans-serif;
-}
-
-.old-norse {
-    font-family: "Source Code Pro", monospace;
-}

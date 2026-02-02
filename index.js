@@ -1,4 +1,4 @@
-function toggleDetails(button) {
+/*function toggleDetails(button) {
     const details = button.nextElementSibling;
     const isOpen = details.style.display === 'block';
 
@@ -6,4 +6,4 @@ function toggleDetails(button) {
     button.textContent = isOpen ? 'Details' : 'Hide';
 }
 
-document.getElementById('year').textContent = new Date().getFullYear();
+document.getElementById('year').textContent = new Date().getFullYear();*/

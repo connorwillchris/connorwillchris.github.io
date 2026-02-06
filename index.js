@@ -6,5 +6,5 @@
     button.textContent = isOpen ? 'Details' : 'Hide';
 }
 
-document.getElementById('year').textContent = new Date().getFullYear();*/
-
+document.getElementById('year').textContent = new Date().getFullYear();
+*/

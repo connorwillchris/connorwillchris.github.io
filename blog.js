@@ -1,4 +1,4 @@
 //console.log('Hello, blog world!');
-let blogPosts = [
+const blogPosts = [
     '2026-2-4-post-1',
 ];
